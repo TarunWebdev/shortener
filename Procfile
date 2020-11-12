@@ -1,1 +1,1 @@
-web: gunicorn app:app --timeout 1500000
+web: wsgi app:app --timeout 1500000
